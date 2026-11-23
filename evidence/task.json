@@ -1,0 +1,11 @@
+{
+  "mass": 0.04,
+  "friction": 0.7,
+  "closing_torque": 0.18,
+  "width": 0.03,
+  "depth": 0.03,
+  "height": 0.03,
+  "object_x": 0.235,
+  "object_y": 0.0,
+  "pad_contacts": true
+}

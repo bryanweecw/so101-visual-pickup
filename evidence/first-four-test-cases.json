@@ -1,0 +1,29 @@
+{
+  "selection": "first four test seeds, including failures",
+  "outcomes": [
+    {
+      "seed": 1300000,
+      "success": false,
+      "peak_lift_m": 3.740863521728421e-12,
+      "hold_s": 0.0
+    },
+    {
+      "seed": 1300001,
+      "success": true,
+      "peak_lift_m": 0.06696927403002054,
+      "hold_s": 2.0000000000000004
+    },
+    {
+      "seed": 1300002,
+      "success": true,
+      "peak_lift_m": 0.06943398588549717,
+      "hold_s": 2.0000000000000004
+    },
+    {
+      "seed": 1300003,
+      "success": false,
+      "peak_lift_m": 0.06175730253620845,
+      "hold_s": 0.0
+    }
+  ]
+}
