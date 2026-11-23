@@ -27,7 +27,7 @@ The latent-position candidate failed even in a privileged exact-position motor d
 - `manifest.json`: observation/action protocol, randomization, splits, source data and model path.
 - `FROZEN.json`: weight digest and selected update count.
 - `results.json`: every test, stress and ablation outcome.
-- `VALIDATION.json`: source/data hashes, split checks, tests and all candidate results.
+- `RELEASE-VALIDATION.json`: isolated package tests and eight-seed smoke replay; the full benchmark was not rerun for publication.
 - `first-four-test-cases.mp4`: 26.65 seconds, H.264/yuv420p, about 1.04 MB. First four assigned test cases, with two passes and two failures. External view is recording only; inset is actual policy RGB input.
 
 Replayed recording outcomes match the original first four test outcomes and peak lifts. 32 focused tests passed; one legacy two-camera RGB-D sensor test was intentionally excluded. Runtime LLM calls and tokens are zero; development/conversation usage is separate.

@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-23",
+  "scope": "Isolated public-package validation; no physical hardware",
+  "focused_tests": {
+    "passed": 6,
+    "failed": 0
+  },
+  "checkpoint_sha256": "c87a262c578c44de680d702e13c715a135b5b34b68473601d3eb6524e05496f2",
+  "short_replay": {
+    "test": {
+      "seeds": [
+        1300000,
+        1300001,
+        1300002,
+        1300003
+      ],
+      "successes": 2,
+      "count": 4,
+      "original_success_outcomes_match": true
+    },
+    "stress": {
+      "seeds": [
+        1400000,
+        1400001,
+        1400002,
+        1400003
+      ],
+      "successes": 1,
+      "count": 4,
+      "original_success_outcomes_match": true
+    }
+  },
+  "full_benchmark_rerun": false,
+  "original_frozen_benchmark": {
+    "test": "50/64",
+    "stress": "18/32"
+  },
+  "note": "The release check reran eight declared seeds. The 96-case benchmark is preserved original evidence, not a new full rerun."
+}

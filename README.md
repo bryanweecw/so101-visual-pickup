@@ -38,6 +38,8 @@ The checkpoint and benchmark records are a curated export of the 2026-11-23 loca
 
 Original checkpoint SHA256: `c87a262c578c44de680d702e13c715a135b5b34b68473601d3eb6524e05496f2`.
 
+Release validation: six focused tests passed; all eight smoke-replay seed outcomes matched the original records. The full 96-case benchmark is preserved original evidence, not a new full rerun. See [the release check](evidence/RELEASE-VALIDATION.json).
+
 ## Attribution and terms
 
 This standalone experiment uses [RUA](https://pypi.org/project/hebbian-rua/) (MIT) and installed SO-101 assets derived from [TheRobotStudio/SO-ARM100](https://github.com/TheRobotStudio/SO-ARM100) (Apache-2.0). Dependencies retain their respective licenses; see [THIRD_PARTY.md](THIRD_PARTY.md). No proprietary RobotStack source, physical recordings, calibration, credentials, or third-party meshes are included. No project-wide license for the original experiment code or weights has been selected; public visibility alone does not grant reuse rights.
